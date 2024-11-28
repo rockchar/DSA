@@ -1,0 +1,101 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXFileReference section */
+		7BE1B5FE2CF821E100C5CAE3 /* LinearSearch.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LinearSearch.xcodeproj; path = LinearSearch/LinearSearch.xcodeproj; sourceTree = "<group>"; };
+		7BE1B6172CF8221300C5CAE3 /* BinarySearch.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BinarySearch.xcodeproj; path = BinarySearch/BinarySearch.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		7BE1B5E42CF821BD00C5CAE3 = {
+			isa = PBXGroup;
+			children = (
+				7BE1B6172CF8221300C5CAE3 /* BinarySearch.xcodeproj */,
+				7BE1B5FE2CF821E100C5CAE3 /* LinearSearch.xcodeproj */,
+			);
+			sourceTree = "<group>";
+		};
+		7BE1B5FF2CF821E100C5CAE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BE1B6182CF8221300C5CAE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		7BE1B5E52CF821BD00C5CAE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 7BE1B5E82CF821BD00C5CAE3 /* Build configuration list for PBXProject "SearchAlgorithms" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7BE1B5E42CF821BD00C5CAE3;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 7BE1B6182CF8221300C5CAE3 /* Products */;
+					ProjectRef = 7BE1B6172CF8221300C5CAE3 /* BinarySearch.xcodeproj */;
+				},
+				{
+					ProductGroup = 7BE1B5FF2CF821E100C5CAE3 /* Products */;
+					ProjectRef = 7BE1B5FE2CF821E100C5CAE3 /* LinearSearch.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		7BE1B5E92CF821BD00C5CAE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		7BE1B5EA2CF821BD00C5CAE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BE1B5E82CF821BD00C5CAE3 /* Build configuration list for PBXProject "SearchAlgorithms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BE1B5E92CF821BD00C5CAE3 /* Debug */,
+				7BE1B5EA2CF821BD00C5CAE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BE1B5E52CF821BD00C5CAE3 /* Project object */;
+}
